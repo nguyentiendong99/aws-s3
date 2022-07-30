@@ -1,0 +1,26 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAVVEXKSL3APZSUK67
+      secret-key: 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
+    region:
+      static: us-west-2
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: s3cloud-storages
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+server:
+  port: 9090
+
