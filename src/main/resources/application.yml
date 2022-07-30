@@ -1,16 +1,16 @@
 cloud:
   aws:
     credentials:
-      access-key: AKIAVVEXKSL3APZSUK67
-      secret-key: 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
+      access-key: 
+      secret-key: 
     region:
-      static: us-west-2
+      static: 
     stack:
       auto: false
 
 application:
   bucket:
-    name: s3cloud-storages
+    name: 
 
 
 spring:
